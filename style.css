@@ -61,11 +61,12 @@ body {
 }
 
 .info-text {
-    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px 15px;
+    align-items: center; 
     font-size: 0.95rem;
-    line-height: 1.7;
     color: var(--text-color);
-    white-space: pre-wrap;
     overflow: hidden;
     position: relative;
     border-right: .15em solid var(--accent-color);
