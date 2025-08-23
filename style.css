@@ -138,8 +138,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 700px; /* Increased max-width for better spacing */
-    margin: 40px 0; /* Adjusted margin for spacing */
+    max-width: 700px; 
+    margin: 40px 0; 
     position: relative;
 }
 
@@ -159,7 +159,7 @@ body {
     margin-bottom: 20px;
     position: relative;
     width: 100%;
-    align-items: flex-start; /* Aligned items to the top */
+    align-items: flex-start;
 }
 
 .timeline-item.left {
@@ -167,7 +167,7 @@ body {
 }
 
 .timeline-dot {
-    display: none; /* Hides the dots */
+    display: none; 
 }
 
 .timeline-item.left .timeline-content {
@@ -179,7 +179,7 @@ body {
     padding: 15px;
     border-radius: 6px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 48%; /* Adjusted width to close the gap */
+    width: 48%; 
     box-sizing: border-box;
 }
 
@@ -201,5 +201,5 @@ body {
     display: block;
     font-size: 0.8rem;
     color: #ccc;
-    margin-top: 8px; /* Added a bit more space */
+    margin-top: 8px; 
 }
