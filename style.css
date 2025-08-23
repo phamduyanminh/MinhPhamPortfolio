@@ -84,6 +84,30 @@ body {
 }
 
 
+/* --- About Me Section --- */
+.about-section {
+    margin-top: 15px;
+    padding-top: 15px;  
+    border-top: 1px solid var(--divider-color); 
+    text-align: left;    
+}
+
+.about-title {
+    color: #ffffff;        
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 10px;  
+    text-align: center;
+}
+
+.about-text {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;    
+    color: var(--text-color);
+}
+
+
 /* --- Contact Icons --- */
 .contact-icons {
     text-align: center;
